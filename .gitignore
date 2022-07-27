@@ -1,0 +1,8 @@
+img
+node_modules
+src
+oldIndex.html
+package.json
+package-lock.json
+tailwind.config.js
+style.css
