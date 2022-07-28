@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/10eb08d7ba.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/output.css">
     <style>
         *{
             /* border: 1px solid red; */
         }
     </style>
-    <title>Document</title>
+    <title>Anang | Portfolio</title>
 </head>
 <body>
     <!-- navbar section start -->
+    <nav  class="w-full bg-teal-600 h-16">
+        <div class="w-3/4 h-full flex flex-col justify-center xl:w-100 mx-auto">
+            <h1 class="text-xl text-white lg:text-3xl font-bold">Anang</h1>
+        </div>
+    </nav>
     <!-- navbar section end -->
 
     <!-- Hero section start -->
     <section id="hero" class="bg-teal-300 h-screen min-h-96 max-h-100 ">
-        <div class="container flex justify-center">
-            <div class="flex flex-wrap pt-16 xl:pt-32 px-12 max-h-screen lg:w-100 h-fit">
+        <div class="container mx-auto flex justify-center">
+            <div class="flex flex-wrap  pt-16 xl:pt-32 px-12 max-h-screen lg:w-100 h-fit">
                 <div class="w-4/5 lg:w-4/12 mx-auto">
                     <img src="./img/Foto-profil.jpeg" alt="" class="rounded-full">
                 </div>
@@ -43,23 +49,26 @@
    
     <!-- About Me section start -->
     <section id="aboutme" class="bg-white h-fit">
-        <div class="container flex justify-center">
-            <div class="flex flex-wrap w-full xl:w-100 py-16 px-12 xl:text-xl">
-                <div class="xl:w-2/5">
+        <div class="container mx-auto flex justify-center">
+            <div class="flex flex-wrap lg:justify-evenly lg:gap-16 w-full xl:w-100 py-16 px-12 xl:text-xl">
+                <div class="lg:w-2/5">
                     <h1 class="underline text-2xl  xl:text-3xl ">About me</h1>
                     <p class="mt-8">
                         Bisa dipanggil Anang. Seorang mahasiswa Teknik Informatika di Universitas Hasanuddin. Sedang mendalami topik Back-end Web Development. 
                     </p>
+                    <ul class="text-2xl mt-5 flex flex-col gap-2">
+                        <li class="hover:border-l-4 rounded p-1"><a href="http://github.com/Anang-Abr"><i class="fa-brands fa-github"></i> Anang-Abr</a></li>
+                        <li class="hover:border-l-4 rounded p-1"><a href="https://www.linkedin.com/in/muhammad-anang-abrar-03072a225/"><i class="fa-brands fa-linkedin"></i> Muhammad Anang Abrar</a></li>
+                    </ul>
                 </div>
-                <div class="mt-10 xl:w-2/5 xl:mt-0">
-                    <h1 class="underline text-2xl xl:text-3xl ">Tech With Project Experience</h1>
+                <div class="mt-10 lg:w-2/5 xl:mt-0">
+                    <h1 class=" underline text-2xl xl:text-3xl ">Tech With Project Experience</h1>
                     <ul class="mt-5 xl:mt-10 leading-relaxed">
                         <li>Programming Langguage : PHP</li>
                         <li>Framework : Laravel</li>
                         <li>Database : MySQL</li>
                         <li>Other : Bootstrap</li>
                     </ul>
-                    
                 </div>
             </div>
         </div>
